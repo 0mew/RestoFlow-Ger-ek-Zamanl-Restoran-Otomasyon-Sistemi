@@ -1,5 +1,3 @@
-# Untitled
-
 # RestoFlow: Gerçek Zamanlı Restoran Otomasyon Sistemi
 
 **RestoFlow**, modern restoran, kafe ve benzeri işletmeler için geliştirilmiş, Dart ve Flutter tabanlı, tam kapsamlı (full-stack) bir otomasyon sistemidir. Bu proje, sipariş alımından mutfak yönetimine, müşteri ödemelerinden admin paneline kadar tüm operasyonel süreçleri tek bir platformda dijitalleştirmeyi ve otomatize etmeyi amaçlamaktadır.
@@ -97,39 +95,6 @@ Proje, **İstemci-Sunucu (Client-Server)** mimarisi üzerine kurulmuştur. Tüm 
                                        +---------------+
 ```
 
-## 📸 Ekran Görüntüleri
-
-*(Bu bölüme uygulamanın en güzel ekranlarının görüntülerini ekleyebilirsin.)*
-
-| Garson Masa Listesi | Birleşik Sipariş Ekranı | Mutfak Ekranı |  |
-| --- | --- | --- | --- |
-|  |  |  |  |
-|  |  |  |  |
-
-| Müşteri Sipariş | Admin Paneli | Satış Raporu |
-| --- | --- | --- |
-|  |  |  |
-|  |  |  |
-
-![masa_listesi_yeni.png](Proje Gorselleri/masa_listesi_yeni.png)
-
-Garon Masalar Paneli
-
-![kitchen_ready_button.jpg](Proje Gorselleri/kitchen_ready_button.jpg)
-
-Mutfak Ekranı
-
-![admin_panel_screen.jpg](Proje Gorselleri/admin_panel_screen.jpg)
-
-Admin Paneli
-
-![login_screen.jpg](Proje Gorselleri/login_screen.jpg)
-
-Personel Girişi
-
-![restoflow_logo.png](Proje Gorselleri/restoflow_logo.png)
-
-Uygulama Logosu
 
 ## 🛠️ Kurulum ve Çalıştırma
 
