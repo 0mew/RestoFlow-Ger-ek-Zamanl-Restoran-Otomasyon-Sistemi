@@ -1,0 +1,42 @@
+name: restaurant_app
+description: "A new Flutter project."
+publish_to: 'none' # NuGet paket yöneticisine yayınlamayı engeller
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.7.0 <4.0.0' # SDK versiyonunuzu doğru belirttiğinizden emin olun
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  cupertino_icons: ^1.0.8 # iOS stili ikonlar için
+  web_socket_channel: ^2.4.0 # WebSocket iletişimi için
+  provider: ^6.1.2  # State management için
+  intl: ^0.19.0 # Tarih, sayı formatlama vb. için
+  google_fonts: ^6.2.1 # Özel fontlar için
+  shared_preferences: ^2.2.3 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  flutter_lints: ^3.0.2 # Kod analizi ve stil önerileri için (en son sürümü veya projenize uygun olanı kullanın, sizde ^5.0.0 idi, o da kalabilir)
+  
+  # flutter_launcher_icons paketini buraya, dev_dependencies altına ekliyoruz
+  flutter_launcher_icons: ^0.13.1 # Uygulama ikonlarını oluşturmak için
+
+# Flutter'a özel yapılandırmalar
+flutter:
+  uses-material-design: true
+  # assets:
+  #   - assets/icon/ # İkon dosyanız assets/icon/app_icon.png ise bu satırı açın
+  #   - assets/images/ # Diğer görselleriniz varsa
+
+# flutter_launcher_icons paketinin kendi yapılandırması
+# Bu blok, dosyanın en dış seviyesinde, girintisiz olmalıdır.
+flutter_launcher_icons:
+  android: true
+  ios: false # Sadece Android için APK üretiyorsak
+  image_path: "assets/icon/app_icon.png" # Ana ikon dosyanızın yolu
+  min_sdk_android: 21 # Android projenizin minimum SDK seviyesi
